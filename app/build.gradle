@@ -31,4 +31,7 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test:rules:1.1.1'
+    // TODO (5) Add build dependencies required to use Espresso-Intents
+    androidTestImplementation 'androidx.test.espresso:espresso-intents:3.1.1'
+
 }
