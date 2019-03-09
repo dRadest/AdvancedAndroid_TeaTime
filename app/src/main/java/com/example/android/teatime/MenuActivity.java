@@ -34,7 +34,6 @@ import java.util.ArrayList;
 
 import androidx.test.espresso.IdlingResource;
 
-// TODO (1) Implement ImageDownloader.DelayerCallback
 public class MenuActivity extends AppCompatActivity implements ImageDownloader.DelayerCallback {
 
     Intent mTeaIntent;
