@@ -25,13 +25,12 @@ dependencies {
     implementation 'com.android.support:support-annotations:28.0.0'
     implementation 'com.google.android.gms:play-services-appindexing:9.8.0'
 
-    // TODO (4) Add the required Espresso UI Testing dependencies
+    // Espresso UI Testing dependencies
     androidTestImplementation 'androidx.annotation:annotation:1.0.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test:rules:1.1.1'
-    // TODO (5) Add build dependencies required to use Espresso-Intents
     androidTestImplementation 'androidx.test.espresso:espresso-intents:3.1.1'
-
+    implementation 'androidx.test.espresso:espresso-idling-resource:3.1.1'
 }
